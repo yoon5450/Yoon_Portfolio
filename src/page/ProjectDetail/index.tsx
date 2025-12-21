@@ -179,7 +179,7 @@ function ProjectDetail() {
 
         {project.troubleShootings && (
           <section>
-            <h2 className="text-2xl font-semibold mb-4">문제 해결</h2>
+            <h2 className="text-2xl font-semibold mb-4">트러블슈팅</h2>
             <ul className="list-inside flex flex-col gap-2 list-decimal">
               {project.troubleShootings.map((troubleShooting) => (
                 <TroubleShootingItem

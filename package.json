@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.16",
+    "@microsoft/clarity": "^1.0.2",
     "@supabase/supabase-js": "^2.51.0",
     "@tailwindcss/vite": "^4.1.12",
     "class-variance-authority": "^0.7.1",
