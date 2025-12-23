@@ -1,7 +1,7 @@
 import relifeThumb from "@/assets/relifethumb.png";
 import pickItBookThumb from "@/assets/pickitbookthumb.png";
 import musicMateThumb from "@/assets/musicmatethumb.png";
-import portpolioThumb from "@/assets/portpoliothumb.png";
+import portfolioThumb from "@/assets/portfoliothumb.png";
 import ProjectItem from "./ProjectItem";
 import type { ProjectType } from "../types";
 
@@ -102,8 +102,8 @@ const projects: ProjectType[] = [
     youtubeUrl: "https://youtu.be/rBm-t0leH-o",
   },
   {
-    thumbnail: portpolioThumb,
-    title: "Portpolio",
+    thumbnail: portfolioThumb,
+    title: "Portfolio",
     desc: "포트폴리오 사이트",
     period: "2025-10-20 ~ 진행중",
     background: "개인 포트폴리오 웹페이지입니다.",

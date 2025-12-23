@@ -1,7 +1,7 @@
 import relifeThumb from "@/assets/relifethumb.png";
 import pickItBookThumb from "@/assets/pickitbookthumb.png";
 import musicMateThumb from "@/assets/musicmatethumb.png";
-import portpolioThumb from "@/assets/portpoliothumb.png";
+import portfolioThumb from "@/assets/portfoliothumb.png";
 import musicMateArchitecture from "@/assets/musicMateArchitecture.png";
 import pickItBookArchitecture from "@/assets/pickItBookArchitecture.png";
 import relifeArchitecture from "@/assets/relifeArchitecture.png";
@@ -378,8 +378,8 @@ export const PROJECTS: ProjectDetail[] = [
     tistoryUrl: "https://yun-engene.tistory.com/86",
   },
   {
-    thumbnail: portpolioThumb,
-    title: "Portpolio",
+    thumbnail: portfolioThumb,
+    title: "Portfolio",
     desc: "포트폴리오 사이트",
     period: "2025-10-20 ~ 2025-10-30",
     background: "윤대웅의 개인 포트폴리오 웹사이트입니다.",
