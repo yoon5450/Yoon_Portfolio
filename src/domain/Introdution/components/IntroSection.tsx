@@ -1,4 +1,3 @@
-import avatar from "@/assets/yoon.jpg";
 import { useState } from "react";
 import IntroductionSummary from "./IntroductionSummary";
 import { motion } from "motion/react";
@@ -33,8 +32,12 @@ function IntroSection() {
 
       {/* 컨텐츠 영역 */}
       <div className="flex flex-col md:flex-row gap-0 md:gap-12 py-20 px-10 items-center">
-        <div className="w-50">
-          <img src={avatar} alt="프로필" className="rounded-md object-cover" />
+        <div className="w-50 rounded-md">
+          <img
+            src={"https://avatars.githubusercontent.com/u/203302518?v=4"}
+            alt="프로필"
+            className="rounded-md object-cover"
+          />
         </div>
 
         {/* 2층 아이템 (이름)*/}
