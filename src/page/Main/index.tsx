@@ -7,13 +7,14 @@ import ProjectSection from "@/domain/Projects/components/ProjectSection";
 import SkillsSection from "@/domain/Skills/components/SkillsSection";
 import { headerControllStore } from "@/domain/Layout/stores/headerControllStore";
 import { useEffect } from "react";
+import CareerSection from "@/domain/Career/components/CareerSection";
 
 function Main() {
   const setFocusedItem = headerControllStore((state) => state.setFocusedItem);
   const isScrolling = headerControllStore((state) => state.isScrolled);
 
   useEffect(() => {
-    let throttleTimer: NodeJS.Timeout | null = null;
+    let throttleTimer:ReturnType<typeof setTimeout> | null = null;
 
     const handleScroll = () => {
       if (isScrolling) return;
@@ -80,6 +81,8 @@ function Main() {
       <SkillsSection />
       <hr className="text-gray-200 px-[8%]" />
       <ProjectSection />
+      <hr className="text-gray-200 px-[8%]" />
+      <CareerSection />
       <hr className="text-gray-200 px-[8%]" />
       <ContactSection />
     </div>
